@@ -55,7 +55,9 @@ namespace imnChecker
             var connectionProvider = new ConnetionProvider()
             {
                 IndexNumber = _indexNumber,
-                Pass = _pass
+                Pass = _pass,
+                Item = _item?.Replace("_", " ") ?? "Programowanie obiektowe II",
+                Type = _type?.Replace("_", " ") ?? "Egzamin"
             };
 
             if (_item != null)
