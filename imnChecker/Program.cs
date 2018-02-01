@@ -13,7 +13,7 @@ namespace imnChecker
         private static string _type;
         private static System _system;
 
-        private static string _apiKey = "c5bb04c3d4f23a0fa976c53a37a08832694e5306edf0e0ff";
+        private static string _apiKey = "";
 
         private static INotifier _notifier;
 
